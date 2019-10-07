@@ -1,5 +1,5 @@
 # Blowhole
-Blowhole is a Python-based script that enumerates container configurations and calls Dockerized auditing tools (Batten and Docker Security Benchmark) to investigate Docker configurations and settings on the host machine.
+Blowhole is a Python-based script that enumerates Docker container configurations and calls Dockerized auditing tools (Batten and Docker Security Benchmark) to investigate Docker configurations and settings on the host machine.
 
 ## Usage
 ```
