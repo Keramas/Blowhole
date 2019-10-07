@@ -33,21 +33,27 @@ Only warning and failed check items will be output to the terminal; however, the
 
 ## Docker Resources for Analyzing (And Exploiting) Results
 * [Docker Components Explained](http://alexander.holbreich.org/docker-components-explained/)
+
 A great, short read about how Docker works by breaking it down component by component.
 
 * [SANS - A Checklist for Audit of Docker Containers](https://www.sans.org/reading-room/whitepapers/auditing/checklist-audit-docker-containers-37437)
+
 Brief paper that contains good explanations about various Docker security points with accompanying checklists.
 
 * [Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+
 Run down of several larger security checks to perform when assessing containers.
 
 * [OWASP Docker Security](https://github.com/OWASP/Docker-Security)
+
 Amazing repository that illustrates ten of the most important security points for container environments. Includes threat scenarios, ways to validate, and possible avenues for remediation.
 
 * [Capabilities](http://man7.org/linux/man-pages/man7/capabilities.7.html)
+
 Good man-page reference for auditing capabilities granted to containers.
 
 * Articles on exploiting Docker containers:
+
 https://www.cyberark.com/threat-research-blog/how-i-hacked-play-with-docker-and-remotely-ran-code-on-the-host/
 https://www.cyberark.com/threat-research-blog/the-route-to-root-container-escape-using-kernel-exploitation/
 https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/
